@@ -1,3 +1,10 @@
 oc create \
- -f https://raw.githubusercontent.com/OpenShiftInAction/chapter8/master/statefulsets/mongodb-statefulset-replication-emptydir.yaml \
+ -f https://raw.githubusercontent.com/hsaid4327/ocp-application-examples/master/statefulset-app/mongodb-statefulset-replication-emptydir.yaml \
  -n statefulset
+
+--- for application with persistent storage
+oc create \
+ -f https://raw.githubusercontent.com/hsaid4327/ocp-application-examples/master/statefulset-app/mongodb-statefulset-replication.yaml \
+ -n statefulset
+
+

@@ -1,1 +1,1 @@
-oc new-app eap72-basic-s2i -p APPLICATION_NAME=clustered-app -p SOURCE_REPOSITORY_URL=https://github.com/hsaid4327/ocp-application-examples -p CONTEXT_DIR=clustered-eap-app
+oc new-app eap72-basic-s2i -p APPLICATION_NAME=clustered-app -p SOURCE_REPOSITORY_URL=https://github.com/hsaid4327/ocp-application-examples -p CONTEXT_DIR=clustered-eap-app -p SOURCE_REPOSITORY_REF=master
