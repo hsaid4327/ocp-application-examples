@@ -44,6 +44,9 @@
 
         https://access.redhat.com/documentation/en-US/JBoss_Enterprise_Application_Platform/6.3/html-single/Development_Guide
     -->
+    <scm>
+    <developerConnection>scm:git:https://github.com/hsaid4327/ocp-application-examples.git</developerConnection>
+  </scm>
     <repositories>
         <repository>
             <id>redhat-techpreview-all-repository</id>
@@ -248,6 +251,11 @@
                 <artifactId>jboss-as-maven-plugin</artifactId>
                 <version>${version.jboss.maven.plugin}</version>
             </plugin>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>3.0.0-M4</version>
+      </plugin>
         </plugins>
     </build>
 
